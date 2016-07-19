@@ -1,0 +1,93 @@
+/* latin */
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v6/RQxK-3RA0Lnf3gnnnNrAsYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	background-color: black
+}
+
+#red_server{
+	font-family: 'Share Tech Mono';
+	color: red;
+	font-size: 20px;
+	margin-left: 3
+	
+}
+
+#quest1{
+	font-family: 'Share Tech Mono';
+	color: green;
+	font-size: 20px;
+	margin-left: 500;
+
+	
+}
+#quest2{
+	font-family: 'Share Tech Mono';
+	color: green;
+	font-size: 20px;
+	margin-left: 500;
+
+	
+}
+
+hr {
+	background-color: green;
+}
+
+#red_server_ip{
+	font-family: 'Share Tech Mono';
+	color: red;
+	font-size: 10px;
+	
+}
+
+#quests_text{
+	font-family: 'Share Tech Mono';
+	color: green;
+	font-size: 3em;
+	margin-left: 130;
+
+}
+
+
+#map {
+	background-color: #0CB52C;
+	border: 3px solid blue;
+	margin-bottom: -260
+
+}
+#map_text{
+	font-family: 'Share Tech Mono';
+	color: green;
+	font-size: 3em;
+	margin-left: -400
+}
+
+
+.loading{
+	margin-left: 550;
+	font-family: 'Share Tech Mono';
+	color: #25B201
+
+}
+.gif {
+	margin-left: 500;
+}
+
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */

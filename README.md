@@ -1,2 +1,2 @@
-# gamebox-gamehacker
-My first Git
+Игра HACKERS
+
